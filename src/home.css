@@ -1,0 +1,49 @@
+.Body {
+  padding: 1rem;
+}
+
+.Left {
+    text-align: left;
+}
+
+.Logo {
+    position: absolute;
+}
+
+.Menu {
+    background-color: #3453C4;
+    padding: 0.5rem;
+}
+
+#menu ul li {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  margin-right: 1rem;
+  padding-left: 6rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+  #menu ul li {
+    float: left;
+  }
+
+  #menu {
+    width: 100%;
+  }
+}
+
+.Welcome {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #131D45;
+}
+
+.Welcome-Airline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1rem;
+      color: #273E91;
+    }
